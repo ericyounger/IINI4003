@@ -102,10 +102,18 @@ public:
 
 	  //Prints out the entire board.
 	  void print_board() const {
+	  	char letter = 97;
+
+		//Print row numbers
+	  	for(size_t n=1; n<squares.size()+1; n++) cout << "  " << n;
+	  	cout << endl;
+
+	  	//Prints the chessboard out with player positions.
 	  	for(size_t i=0; i<squares.size(); ++i){
+	  		std::cout << letter++; //Prints letters on the side
 	  		for(size_t j=0; j<squares[i].size(); ++j){
 			    if(squares[i][j]){
-				    std::cout << "[" <<  squares[i][j]->player_visualization() << "]";
+				    std::cout << "[" <<  squares[i][j]->player_visualization() << "]"; //Print piece in square.
 			    } else {
 				    std::cout << "[ ]";
 			    }
