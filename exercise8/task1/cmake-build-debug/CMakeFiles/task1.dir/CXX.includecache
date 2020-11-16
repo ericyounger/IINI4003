@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ericyounger/Desktop/NTNU/C++/exercise8/task1/main.cpp
+iostream
+-
+math.h
+-
+iomanip
+-
+cmath
+-
+

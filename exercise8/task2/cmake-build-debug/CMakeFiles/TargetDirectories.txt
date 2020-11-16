@@ -1,0 +1,3 @@
+/Users/ericyounger/Desktop/NTNU/C++/exercise8/task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ericyounger/Desktop/NTNU/C++/exercise8/task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ericyounger/Desktop/NTNU/C++/exercise8/task2/cmake-build-debug/CMakeFiles/task2.dir
